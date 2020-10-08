@@ -2865,7 +2865,7 @@ input, select, textarea {
 
 			.tiles article {
 				padding: 3em 1.5em 1em 1.5em ;
-				height: 16em;
+				height: 1em;
 				max-height: none;
 				min-height: 0;
 			}
@@ -2926,8 +2926,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
-		}
+			background-color: #242943;		}
 
 			.spotlights > section > .image {
 				background-position: center center;
@@ -2939,6 +2938,7 @@ input, select, textarea {
 			}
 
 				.spotlights > section > .image img {
+					
 					border-radius: 0;
 					display: block;
 					width: 100%;
@@ -3389,14 +3389,14 @@ input, select, textarea {
 	}
 
 		#banner:after {
-			-moz-transition: opacity 2.5s ease;
-			-webkit-transition: opacity 2.5s ease;
-			-ms-transition: opacity 2.5s ease;
-			transition: opacity 2.5s ease;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			-moz-transition: opacity 1.5s ease;
+			-webkit-transition: opacity 1.5s ease;
+			-ms-transition: opacity 1.5s ease;
+			transition: opacity 1.5s ease;
+			-moz-transition-delay: 0.35s;
+			-webkit-transition-delay: 0.35s;
+			-ms-transition-delay: 0.35s;
+			transition-delay: 0.35s;
 			pointer-events: none;
 			background-color: #242943;
 			content: '';
@@ -3483,7 +3483,7 @@ input, select, textarea {
 		}
 
 		#banner.style2:after {
-			background-color: #2d2e61;
+			background-color:#242943;
 		}
 
 		#banner.style3:after {
@@ -3507,10 +3507,10 @@ input, select, textarea {
 		}
 
 		body.is-preload #banner > .inner {
-			-moz-filter: blur(0.125em);
-			-webkit-filter: blur(0.125em);
-			-ms-filter: blur(0.125em);
-			filter: blur(0.125em);
+			-moz-filter: blur(0.150em);
+			-webkit-filter: blur(0.150em);
+			-ms-filter: blur(0.150em);
+			filter: blur(0.150em);
 			-moz-transform: translateX(-0.5em);
 			-webkit-transform: translateX(-0.5em);
 			-ms-transform: translateX(-0.5em);
