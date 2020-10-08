@@ -1,11 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2620,7 +2615,7 @@ input, select, textarea {
 				position: absolute;
 				right: 1.5em;
 				top: 0;
-				vertical-align: middle;
+				/*vertical-align: middle;*/
 				width: 36px;
 			}
 
@@ -3178,7 +3173,7 @@ input, select, textarea {
 				line-height: inherit;
 				padding: 0 0.75em;
 				position: relative;
-				vertical-align: middle;
+				/*vertical-align: middle;*/
 			}
 
 				#header nav a:last-child {
@@ -3200,7 +3195,7 @@ input, select, textarea {
 						position: absolute;
 						right: 1.5em;
 						top: 0;
-						vertical-align: middle;
+						/*vertical-align: middle;*/
 						width: 24px;
 					}
 
@@ -3713,9 +3708,9 @@ input, select, textarea {
 		}
 
 		#wrapper > * > .inner {
-			padding: 4em 0 2em 0 ;
+			padding: 1.2em 0 2em 0 ;
 			margin: 0 auto;
-			max-width: 65em;
+			max-width: 75em;
 			width: calc(100% - 6em);
 		}
 
@@ -3849,7 +3844,7 @@ input, select, textarea {
 			text-align: right;
 			text-indent: 8em;
 			top: 0;
-			vertical-align: middle;
+			/*vertical-align: middle;*/
 			white-space: nowrap;
 			width: 8em;
 		}
